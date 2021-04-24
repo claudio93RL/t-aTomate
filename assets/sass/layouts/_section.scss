@@ -1,0 +1,27 @@
+.section{
+    background-color: $Jelly-bean;
+    text-align: center;
+    &__titulo{
+        color: $White;
+        text-align: center;
+        padding: 50px 0;
+        &--h2{
+            font-size: $large;
+            @media (min-width: 768px){
+                & {
+                    font-size: $x-large;
+                    font-weight: $regular;
+                }
+            }
+        }
+        &--h3{
+            font-size: $medium;
+            @media (min-width:768px){
+                & {
+                    font-size: $large;
+                    font-weight: $regular;
+                }
+            }
+        }
+    }
+}

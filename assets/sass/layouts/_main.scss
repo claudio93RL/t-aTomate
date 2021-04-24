@@ -1,0 +1,112 @@
+.main {
+    background-color: $Jelly-bean;
+
+
+    &__titulo {
+        text-align: center;
+        text-transform: capitalize;
+        padding: 100px 0;
+
+        &__h1 {
+            color: $White;
+            font-weight: $light;
+            line-height: 1.5;
+
+            &--span {
+                font-weight: $bold;
+                display: block;
+                font-size: $large;
+                text-transform: uppercase;
+
+                @media(min-width:768px){
+                    & {
+                        font-size: $x-large;
+                        font-weight: $regular;
+                    }
+                }
+            }
+        }
+        @media (min-width:768px){
+            & {
+                padding: 150px 0px;
+            }
+        }
+    }
+
+
+    &__tomates {
+        background-color: $Taupe-gray;
+        padding: 50px 0;
+        text-align: center;
+        &__img{
+            width: 100%;
+            @media(min-width:768px){
+                & {
+                    width: 80%;
+                }
+            }
+        }
+        &__contenido{
+            color: $White;
+            & h2{
+                text-align: center;
+                margin: 20px 0;
+                text-transform: capitalize;
+            }
+
+            & p {
+                margin-top: 20px;
+                text-align: left;
+            }
+        }
+        @media (min-width: 768px){
+            &__contenido {
+                width: 50%;
+                margin: auto;
+            }
+        }
+        @media (min-width:768px){
+            & {
+                padding: 50px 0px;
+            }
+        }
+    }
+
+    &__limache {
+        padding: 50px 0;
+        background-color: $Snow;
+        text-align: center;
+        &__img{
+            width: 100%;
+        
+        }
+        @media (min-width: 360px) {
+            &__img {
+                height: auto;
+                @media(min-width:768px){
+                    & {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+        &__contenido {
+            & h2{
+                text-align: center;
+                margin: 20px 0;
+                text-transform: capitalize;
+            }
+
+            & p {
+                margin-top: 20px;
+                text-align: left;
+            }
+        }
+        @media (min-width: 768px){
+            &__contenido {
+                width: 50%;
+                margin: auto;
+            }
+        }
+    }
+}

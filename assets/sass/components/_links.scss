@@ -1,0 +1,15 @@
+.link{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    &:active{
+        text-decoration: none;
+        color: $Pastel-pink;
+    }
+    &:hover{
+        color: $White;
+        text-decoration: none;
+        
+    }
+}
+

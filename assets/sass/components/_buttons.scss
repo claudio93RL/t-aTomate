@@ -1,0 +1,18 @@
+.button{
+    background-color: $White;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    margin-bottom: 10px;
+    &--small{
+        padding: 5px 20px;
+    }
+    @media (min-width: 768px){
+        &--medium{
+            padding: 10px 80px;
+        }
+    }
+    &:hover{
+        background-color: $Quick-silver;
+    }
+}
